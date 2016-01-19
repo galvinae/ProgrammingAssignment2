@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## The cacheSolve function gets the inverse of the matrix.
 ## If the matrix has already been inveresed, it retrieves that inverse matrix and returns it
-## If the matrix has not already been inveresed, cacheSolve() creates the inverses and stores it in m. 
+## If the matrix has not already been inveresed, cacheSolve() creates the inverse and stores it in m. 
 
 cacheSolve <- function(x = matrix(), ...) {
   m <- x$getinvs()
